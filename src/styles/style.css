@@ -1,0 +1,39 @@
+body {
+    background-color: sandybrown;
+    font-family: "Protest Revolution", sans-serif;
+}
+
+@font-face  {
+    font-family: "Protest Revolution";
+    src: url("../fonts/ProtestRevolution-Regular.ttf");
+}
+  
+
+.the main {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.block {
+    width: 250px;
+    height: 250px;
+    border: 1px solid blueviolet;
+}
+
+body p {
+    text-align: center;
+    color: greenyellow;
+    font-size: 2rem;
+    font-style: italic;
+}
+
+.imgs {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+img.momch {
+    border-radius: 15%;
+}
