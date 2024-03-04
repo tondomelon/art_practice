@@ -64,7 +64,6 @@
 
         </section>
         <section class="section_3">
-<div class
             <div class="first"> <img class="content_2" alt="Отзыв блока3" src="#">
                 <p> ТекстТекстТекстТекстТекстТекстТекстТекстТекстТекстТекстТекстТекстТекстТекстТекст</p>
             </div>
@@ -75,11 +74,49 @@
             <div class="third"> <img class="content_2" alt="Отзыв блока3" src="#">
                 <p> ТекстТекстТекстТекстТекстТекстТекстТекстТекстТекстТекстТекстТекстТекстТекстТекст</p>
             </div>
-
+            <div class="button"> <button> <- </button> <button> -> </button> </div>
 
         </section>
 
     </main>
+
+    <footer>
+     <h3> Заинтересовались? Оставьте заявку, заполнив форму:</h3>
+
+
+      <div class="form">  <form action="/submit_form.php" method="post">
+            <label for="name">ФИО:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Почта:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Телефон:</label>
+            <input type="text" id="phone" name="phone" pattern="[0-9+ ]+" required>
+
+            <label for="message">Комментарий:</label>
+            <textarea id="message" name="comment" rows="3"></textarea>
+
+            <button type="submit">Отправить</button>
+            <button type="reset">Очистить</button>
+        </form> </div>
+        <!-- Я не помню если мы вводим для каждого поля в форме див или достаточно ввести див для формы -->
+
+        <div class="button2"> <button> Вверх </button> </div>
+
+        <address>
+            <div class="adsress">
+            <p>Унисон</p>
+            <p>Адрес: Большая Печерская 25/12, Россия, Новосибирск, 630099</p>
+            <p>Телефон: <a href="tel:+1234567890">+1 (234) 567-890</a></p>
+            <p>Email: <a href="mailto:info@example.com">info@example.com</a></p>
+            <p>&copy; 2023 Унисон. Все права защищены.</p>
+        </div>
+        </address>
+
+        <!-- тут та же самая проблема, я сейчас не вспомню -->
+
+    </footer>
 
 </body>
 
