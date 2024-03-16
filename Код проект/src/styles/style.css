@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    background-color: #292323;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: ;
+}
+
+.tetx_usual {
+    font-family: avenirnextcyr-regular;
+}
+
+.text_main {
+    font-family: Comfortaa-VariableFont_wght;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1440px;
+    padding: 0 60px;
+}
+
+
+.head_content {
+    background-image: url("../img/ShadowPunk.JPG");
+    width: 100%;
+    height: 77px;
+    border-radius: 0 0 25px 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+h2 {
+    margin: 0;
+    font-size: 40px;
+    font-family: Comfortaa-VariableFont_wght;
+}
+
+
+.header_ride {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 17px;
+}
+
+.navigation_1 {
+    font-size: 32px;
+}
